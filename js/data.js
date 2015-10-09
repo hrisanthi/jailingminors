@@ -44,28 +44,40 @@ $(function () {
             data: [{
                     "code": "us-ak",
                     "value": 17.2,
+                    "color": "#f8991c",
 
             }, {
                     "code": "us-al",
-                    "value": 12.1
+                    "value": 12.1,
+                    "color": "#f8991c",
+
             }, {
                     "code": "us-ar",
-                    "value": 11.8
+                    "value": 11.8,
+                    "color": "#aca668",
+
             }, {
                     "code": "us-az",
-                    "value": 13.6
+                    "value": 13.6,
+                    "color": "#aca668",
+
             }, {
                     "code": "us-ca",
-                    "value": 12.4
+                    "value": 12.4,
+                    "color": "#aca668",
+
             }, {
                     "code": "us-co",
-                    "value": 10.3
+                    "value": 10.3,
+                    "color": "#7299ac"
             }, {
                     "code": "us-ct",
-                    "value": 6.9
+                    "value": 6.9,
+                    "color": "#56488f"
             }, {
                     "code": "us-de",
-                    "value": 7.8
+                    "value": 7.8,
+                    "color": "#f8991c"
             }, {
                     "code": "us-fl",
                     "value": 16.6
