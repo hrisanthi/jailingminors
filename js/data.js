@@ -80,53 +80,83 @@ $(function () {
                     "color": "#f8991c"
             }, {
                     "code": "us-fl",
-                    "value": 16.6
+                    "value": 16.6,
+                    "color": "#aca668",
             }, {
                     "code": "us-ga",
-                    "value": 15.8
+                    "value": 15.8,
+                    "color": "#aca668",
             }, {
                     "code": "us-hi",
-                    "value": 5.3
+                    "value": 5.3,
+                    "color": "#56488f"
             }, {
                     "code": "us-ia",
-                    "value": 6.2
+                    "value": 6.2,
+                    "color": "#f8991c",
+
             }, {
                     "code": "us-id",
-                    "value": 13.6
+                    "value": 13.6,
+                    "color": "#f8991c",
+
             }, {
                     "code": "us-il",
-                    "value": 9.7
+                    "value": 9.7,
+                    "color": "#f8991c",
+
             }, {
                     "code": "us-in",
-                    "value": 11.9
+                    "value": 11.9,
+                    "color": "#f8991c",
+
             }, {
                     "code": "us-ks",
-                    "value": 10.2
+                    "value": 10.2,
+                    "color": "#56488f"
 
             }, {
                     "code": "us-ky",
-                    "value": 8.5
+                    "value": 8.5,
+                    "color": "#56488f"
+
             }, {
                     "code": "us-la",
-                    "value": 14.8
+                    "value": 14.8,
+                    "color": "#aca668",
+
+
             }, {
                     "code": "us-ma",
-                    "value": 3.3
+                    "value": 3.3,
+                    "color": "#f8991c",
+
             }, {
                     "code": "us-md",
-                    "value": 7.9
+                    "value": 7.9,
+                    "color": "#f8991c",
+
             }, {
                     "code": "us-me",
-                    "value": 10.1
+                    "value": 10.1,
+                    "color": "#56488f"
+
+
             }, {
                     "code": "us-mi",
-                    "value": 8.5
+                    "value": 8.5,
+                    "color": "#7299ac"
+
             }, {
                     "code": "us-mn",
-                    "value": 5.9
+                    "value": 5.9,
+                    "color": "#f8991c",
+
             }, {
                     "code": "us-mo",
-                    "value": 11.7
+                    "value": 11.7,
+                    "color": "#56488f"
+
             }, {
                     "code": "us-ms",
                     "value": 14.5
