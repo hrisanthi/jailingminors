@@ -6,13 +6,14 @@ $(function () {
         chart: {
             spacingBottom: 20
         },
-        colors: ['#a0a0a0'],
+
         title : {
-            text : 'Europe time zones'
+            text : 'Adult criminals'
         },
 
+
         legend: {
-            enabled: true
+            enabled: false
         },
 
         plotOptions: {
@@ -36,206 +37,287 @@ $(function () {
         },
 
         series: [{
-            name: 'Minimum Age',
+            name: 'Certain cases  – usually murder and other violent felonies – automatically move to adult courts even when the defendant is underage.',
             mapData: Highcharts.maps['countries/us/us-all'],
             joinBy: ['hc-key', 'code'],
             type: 'map',
-            nullColor: "red",
             data: [{
                     "code": "us-ak",
-                    "value": 17.2,
+                    "value": 18,
                     "color": "#f8991c",
 
-            }, {
+            },{
                     "code": "us-al",
-                    "value": 12.1,
+                    "value": 18,
                     "color": "#f8991c",
 
-            }, {
+        },{
+                    "code": "us-de",
+                    "value": 18,
+                    "color": "#f8991c"
+            },
+
+            {
+                   "code": "us-ia",
+                   "value": 18,
+                   "color": "#f8991c",
+
+           },
+           {
+                   "code": "us-nv",
+                   "value": 18,
+                   "color": "#f8991c",
+
+           },
+           {
+                   "code": "us-id",
+                   "value": 18,
+                   "color": "#f8991c",
+
+           },
+           {
+                   "code": "us-il",
+                   "value": 18,
+                   "color": "#f8991c",
+
+           },
+           {
+                   "code": "us-in",
+                   "value": 18,
+                   "color": "#f8991c",
+
+           },
+           {
+                   "code": "us-ma",
+                   "value": 18,
+                   "color": "#f8991c",
+
+           },
+           {
+                   "code": "us-md",
+                   "value": 18,
+                   "color": "#f8991c",
+
+           },
+           {
+                   "code": "us-sc",
+                   "value": 17,
+                   "color": "#f8991c",
+
+
+           }, {
+                   "code": "us-sd",
+                   "value": 17,
+                   "color": "#f8991c",
+
+           },
+           {
+                   "code": "us-mn",
+                   "value": 18,
+                   "color": "#f8991c",
+
+           },
+           {
+                   "code": "us-wa",
+                   "value": 18,
+                   "color": "#f8991c"
+           }, {
+                   "code": "us-wi",
+                   "value": 17,
+                   "color": "#f8991c"
+
+           },
+           {
+                   "code": "us-ny",
+                   "value": 16,
+                   "color": "#f8991c",
+
+           },
+           {
+                   "code": "us-ms",
+                   "value": 18,
+                   "color": "#f8991c",
+
+           },
+           {
+                   "code": "us-nm",
+                   "value": 18,
+                   "color": "#f8991c",
+
+           },
+           {
+                   "code": "us-or",
+                   "value": 18,
+                   "color": "#f8991c",
+
+
+           }, {
+                   "code": "us-pa",
+                   "value": 18,
+                   "color": "#f8991c",
+
+           },
+           {
+                   "code": "us-ut",
+                   "value": 18,
+                   "color": "#f8991c",
+
+           }]
+       },{
+       name: 'Certain violent felonies automatically move to adult court. Prosecutors have discretion to try juveniles as adults in other cases.',
+       mapData: Highcharts.maps['countries/us/us-all'],
+       joinBy: ['hc-key', 'code'],
+       type: 'map',
+       data: [{
+
                     "code": "us-ar",
-                    "value": 11.8,
+                    "value": 18,
                     "color": "#aca668",
 
             }, {
                     "code": "us-az",
-                    "value": 13.6,
+                    "value": 18,
                     "color": "#aca668",
 
             }, {
                     "code": "us-ca",
-                    "value": 12.4,
+                    "value": 18,
                     "color": "#aca668",
 
-            }, {
-                    "code": "us-co",
-                    "value": 10.3,
-                    "color": "#7299ac"
-            }, {
-                    "code": "us-ct",
-                    "value": 6.9,
-                    "color": "#56488f"
-            }, {
-                    "code": "us-de",
-                    "value": 7.8,
-                    "color": "#f8991c"
-            }, {
-                    "code": "us-fl",
-                    "value": 16.6,
-                    "color": "#aca668",
             }, {
                     "code": "us-ga",
-                    "value": 15.8,
+                    "value": 17,
                     "color": "#aca668",
             }, {
+                    "code": "us-la",
+                    "value": 17,
+                    "color": "#aca668",
+
+
+            }, {
+                    "code": "us-mt",
+                    "value": 18,
+                    "color": "#aca668",
+
+            },{
+                    "code": "us-ok",
+                    "value": 18,
+                    "color": "#aca668",
+
+            },{
+                    "code": "us-vt",
+                    "value": 18,
+                    "color": "#aca668"
+
+            }], },{
+                name: 'Only judges can determine whether a juvenile should be tried in adult court.',
+                mapData: Highcharts.maps['countries/us/us-all'],
+                joinBy: ['hc-key', 'code'],
+                type: 'map',
+                data: [{
+                    "code": "us-ct",
+                    "value": 18,
+                    "color": "#56488f"
+            },  {
+                    "code": "us-wv",
+                    "value": 18,
+                    "color": "#56488f"
+
+            }, {
                     "code": "us-hi",
-                    "value": 5.3,
+                    "value": 18,
                     "color": "#56488f"
             }, {
-                    "code": "us-ia",
-                    "value": 6.2,
-                    "color": "#f8991c",
-
-            }, {
-                    "code": "us-id",
-                    "value": 13.6,
-                    "color": "#f8991c",
-
-            }, {
-                    "code": "us-il",
-                    "value": 9.7,
-                    "color": "#f8991c",
-
-            }, {
-                    "code": "us-in",
-                    "value": 11.9,
-                    "color": "#f8991c",
-
-            }, {
                     "code": "us-ks",
-                    "value": 10.2,
+                    "value": 18,
                     "color": "#56488f"
 
             }, {
                     "code": "us-ky",
-                    "value": 8.5,
+                    "value": 18,
                     "color": "#56488f"
 
-            }, {
-                    "code": "us-la",
-                    "value": 14.8,
-                    "color": "#aca668",
-
-
-            }, {
-                    "code": "us-ma",
-                    "value": 3.3,
-                    "color": "#f8991c",
-
-            }, {
-                    "code": "us-md",
-                    "value": 7.9,
-                    "color": "#f8991c",
-
-            }, {
+            },   {
                     "code": "us-me",
-                    "value": 10.1,
+                    "value": 18,
                     "color": "#56488f"
 
 
             }, {
+                    "code": "us-ne",
+                    "value": 18,
+                    "color": "#56488f"
+
+            },  {
+                    "code": "us-nd",
+                    "value": 18,
+                    "color": "#56488f"
+
+            }, {
+                    "code": "us-nh",
+                    "value": 18,
+                    "color": "#56488f"
+
+            },{
+                    "code": "us-nj",
+                    "value": 18,
+                    "color": "#56488f"
+
+            },   {
+                    "code": "us-ri",
+                    "value": 18,
+                    "color": "#56488f"
+
+            },  {
+                    "code": "us-oh",
+                    "value": 18,
+                    "color": "#56488f"
+
+            },{
+                    "code": "us-nc",
+                    "value": 16,
+                    "color": "#56488f"
+
+            }, {
+                    "code": "us-tn",
+                    "value": 18,
+                    "color": "#56488f"
+
+            }, {
+                    "code": "us-tx",
+                    "value": 17,
+                    "color": "#56488f"
+
+            },{
+                    "code": "us-mo",
+                    "value": 17,
+                    "color": "#56488f"
+
+            }], },{
+                name: 'Prosecutors are given discretion to try a juvenile in adult court.',
+                mapData: Highcharts.maps['countries/us/us-all'],
+                joinBy: ['hc-key', 'code'],
+                type: 'map',
+                data: [{
                     "code": "us-mi",
-                    "value": 8.5,
+                    "value": 17,
+                    "color": "#7299ac"
+
+            },  {
+                    "code": "us-va",
+                    "value": 18,
                     "color": "#7299ac"
 
             }, {
-                    "code": "us-mn",
-                    "value": 5.9,
-                    "color": "#f8991c",
-
-            }, {
-                    "code": "us-mo",
-                    "value": 11.7,
-                    "color": "#56488f"
-
-            }, {
-                    "code": "us-ms",
-                    "value": 14.5
-            }, {
-                    "code": "us-mt",
-                    "value": 14.2
-            },{
-                    "code": "us-nc",
-                    "value": 13.1
-            }, {
-                    "code": "us-nd",
-                    "value": 7.9
-            }, {
-                    "code": "us-ne",
-                    "value": 9.7
-            },{
-                    "code": "us-nm",
-                    "value": 14.5
-            }, {
-                    "code": "us-nh",
-                    "value": 9.2
-            }, {
-                    "code": "us-nj",
-                    "value": 10.9
-            }, {
-                    "code": "us-nv",
-                    "value": 15.2
-            }, {
-                    "code": "us-ny",
-                    "value": 8.7
-            }, {
-                    "code": "us-oh",
-                    "value": 8.4
-            }, {
-                    "code": "us-ok",
-                    "value": 15.4
-            }, {
-                    "code": "us-or",
-                    "value": 9.7
-            }, {
-                    "code": "us-pa",
-                    "value": 8.5
-            }, {
-                    "code": "us-ri",
-                    "value": 7.4
-            }, {
-                    "code": "us-sc",
-                    "value": 13.6
-            }, {
-                    "code": "us-sd",
-                    "value": 9.8
-            }, {
-                    "code": "us-tn",
-                    "value": 12
-            }, {
-                    "code": "us-tx",
-                    "value": 19.1
-            }, {
-                    "code": "us-ut",
-                    "value": 12.5
-            }, {
-                    "code": "us-va",
-                    "value": 10.9
-            }, {
-                    "code": "us-vt",
-                    "value": 5
-            }, {
-                    "code": "us-wa",
-                    "value": 9.2
-            }, {
-                    "code": "us-wi",
-                    "value": 7.3
-            }, {
-                    "code": "us-wv",
-                    "value": 8.6
-            }, {
                     "code": "us-wy",
-                    "value": 12
-            }]
+                    "value": 18,
+                    "color": "#7299ac"
+            },{
+
+                "code": "us-co",
+                "value": 18,
+                "color": "#7299ac"
+        }]
         }],
 
     });
